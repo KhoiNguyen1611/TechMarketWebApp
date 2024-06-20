@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #0c136d;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 80px;
+    max-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+  
+/* .navbar1 a {
+color: #f2f2f2;
+padding: 14px 16px;
+margin: 7px;
+text-decoration: none;
+font-family: 'Lora', serif;
+vertical-align: middle;
+} */
+
+.navbar1 img{
+    margin-top: 10px;
+}
+
+.navbar1 #logo{
+    border-style: none;
+}
+
+.navbar1 a img{
+    max-height: fit-content;
+}
+
+
+.info form{
+    display: flex;
+    flex-direction: column;
+}
+
+.info fieldset{
+    background-color: #A7C7E7	;
+    max-width: 880px;
+    padding: 30px;
+    padding-left: 70px;
+    padding-top: 40px;
+    margin: 20px;
+    margin-top: 0px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.info label{
+    font-size: 2rem;
+    padding-bottom: 5px;
+}
+
+.info input{
+    margin: 7px;
+    margin-left: 24px;
+    margin-bottom: 20px;
+    padding: 3px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.info_input{
+    max-width: 380px;
+    border: 1.5px solid;
+}
+
+#image{
+    font-size: 1.5rem;
+}
+
+#register{
+    font-size: 16px;
+    max-width: 150px;
+    margin-left: auto;
+    margin-right: 100px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.hub {
+    display: flexbox;
+}
+
+.hub input{
+    padding: 0%;
+}
+
+#register{
+    font-size: 16px;
+    max-width: 150px;
+    margin-right: 100px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+
+#register {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin-left: auto;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+#register:disabled {
+  cursor: default;
+}
+
+#register:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}

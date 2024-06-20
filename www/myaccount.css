@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #0c136d;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 80px;
+    max-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* .navbar1 a {
+color: #f2f2f2;
+padding: 14px 16px;
+margin: 7px;
+text-decoration: none;
+font-family: 'Lora', serif;
+vertical-align: middle;
+} */
+
+.navbar1 img{
+    /* margin-top: 10px; */
+    max-height: 80px;
+}
+
+.navbar1 #logo{
+    border-style: none;
+}
+
+.main_area fieldset{
+    display: flex;
+    flex-direction: column;
+    background-color: #c6e9f5;
+    max-width: 700px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.main_area fieldset img{
+    border: 1px solid rgb(61, 61, 61);
+    border-radius: 5px;
+    max-height: 300px;
+    width: fit-content;
+    align-self: center;
+}
+
+.username{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.address{
+    display: flex;
+    align-items: flex-end;
+}
+
+.main_area fieldset div{
+    margin: 30px;
+    margin-bottom: 0;
+}
+
+#submit{
+    font-size: 16px;
+    max-width: 150px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+#logout{
+    font-size: 16px;
+    max-width: 150px;
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    float: right;
+}
+
+.filesubmission {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bname{
+    display: flex;
+    align-items: flex-end;
+}
+
+#submit {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+#submit:disabled {
+  cursor: default;
+}
+
+#submit:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+#logout {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 100%;
+    height: 44px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  #logout:disabled {
+    cursor: default;
+  }
+  
+  #logout:focus {
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }

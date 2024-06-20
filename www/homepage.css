@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("library.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar1 {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+  
+.navbar1 a {
+color: #f2f2f2;
+padding: 14px 16px;
+border-style:solid;
+margin: 7px;
+text-decoration: none;
+font-family: 'Lora', serif;
+}
+
+.navbar1 #logo{
+    font-size:2rem;
+    border-style: none;
+}
+
+.navbar1 #logo:hover{
+    background: none;
+    color: #f2f2f2;
+}
+
+a.active:hover {
+background: #ddd;
+color: rgb(26, 20, 20);
+
+}
+
+main {
+    margin-top: 70px; 
+    margin-bottom: 150px;
+} 
+
+main fieldset img{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    max-height: 500px;
+}
+
+main fieldset p{
+    font-size: 25px;
+    text-shadow: 0 0 1.5px #070404;
+}
+
+main fieldset{
+    border-width: 5px;
+    margin: 50px auto;
+    margin-top: 10px;
+    background: beige;
+    max-width: fit-content;
+    padding: 20px;
+}
+
+main h1{
+    font-size: 2.5rem;
+    background-color: beige;
+    max-width: fit-content;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: auto;
+    border-radius: 5px;
+    text-shadow: 0 0 3px #070404, 0 0 5px #5d5d8b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cat1-section{
+    text-align: center;
+}
+.cat1-book-name{
+    text-align: center;
+    flex: 1;
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.cat2-section{
+    text-align: center;
+}
+.cat2-book-name{
+    text-align: center;
+    flex: 1;
+    display: inline-block;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+footer nav{
+    position: fixed;
+    background-color: #333;;
+    bottom: 0; 
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+}
+
+footer nav a{
+    padding: 10px;
+    font-size: 16px;
+    color: #ddd;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer nav a:hover{
+    background-color:#947474;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
